@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: spring-boot-app
-          image: jithinbabu657/rest-application
+          image: #USE THE DOCKER IMAGE HERE
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
